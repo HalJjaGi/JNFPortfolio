@@ -1,0 +1,38 @@
+# 샘플 프로젝트 데이터
+
+slug: sample-project
+title: 샘플 프로젝트
+summary: 포트폴리오 시스템 테스트를 위한 샘플 프로젝트입니다.
+
+description: |
+  ## 문제
+  포트폴리오 시스템의 동작을 확인하기 위한 테스트 데이터가 필요했습니다.
+  
+  ## 접근 방식
+  YAML 형식의 데이터 파일을 사용하여 콘텐츠를 관리합니다.
+  
+  ## 결과
+  시스템이 정상적으로 작동하는지 확인할 수 있습니다.
+
+techStack:
+  - Next.js
+  - TypeScript
+  - Tailwind CSS
+  - YAML
+
+members:
+  - sample
+
+links:
+  demo: https://example.com
+  github: https://github.com/sample/sample-project
+
+images:
+  - /images/projects/sample-1.png
+
+period: 2025.03
+
+highlights:
+  - YAML 기반 콘텐츠 관리
+  - Docker 컨테이너화
+  - 모듈화된 구조

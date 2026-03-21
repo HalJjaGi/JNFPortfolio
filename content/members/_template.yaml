@@ -1,0 +1,26 @@
+# 팀원 데이터 템플릿
+# 이 파일을 복사해서 새 팀원을 추가하세요
+
+slug: example-member
+name: 이름
+role: 역할 (예: 풀스택 개발자)
+bio: |
+  간단한 소개를 여기에 작성하세요.
+  여러 줄로 작성할 수 있습니다.
+avatar: /images/members/example.jpg
+
+skills:
+  - React
+  - Next.js
+  - TypeScript
+
+links:
+  github: https://github.com/username
+  email: email@example.com
+  # twitter: https://twitter.com/username
+  # linkedin: https://linkedin.com/in/username
+
+# 이 팀원이 참여한 프로젝트 슬러그 목록
+projects:
+  - project-slug-1
+  - project-slug-2

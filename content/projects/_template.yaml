@@ -1,0 +1,47 @@
+# 프로젝트 데이터 템플릿
+# 이 파일을 복사해서 새 프로젝트를 추가하세요
+
+slug: example-project
+title: 프로젝트 이름
+summary: 한 줄 요약 (1-2문장)
+
+description: |
+  ## 문제
+  해결하고자 했던 문제를 설명하세요.
+  
+  ## 접근 방식
+  어떻게 문제를 해결했는지 설명하세요.
+  
+  ## 결과
+  결과와 성과를 설명하세요.
+
+techStack:
+  - Next.js
+  - TypeScript
+  - Tailwind CSS
+
+# 참여한 팀원 슬러그 목록
+members:
+  - example-member
+
+links:
+  demo: https://example.com
+  github: https://github.com/username/repo
+  # docs: https://docs.example.com
+
+# 스크린샷 이미지 경로
+images:
+  - /images/projects/example-1.png
+  - /images/projects/example-2.png
+
+# 개발 기간
+period: 2025.01 - 2025.03
+
+# 하이라이트 / 성과
+highlights:
+  - 성과 1
+  - 성과 2
+
+# 선택적 필드
+# category: web-app  # 추후 카테고리 분류용
+# status: live       # live | in-development | archived
