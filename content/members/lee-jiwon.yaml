@@ -9,14 +9,11 @@ bio: |
 avatar: /images/members/lee-jiwon.jpg
 
 skills:
-  # 개발
   - React
   - Next.js
   - TypeScript
   - Node.js
-  # 기획
   - 서비스 기획
-  - 요구사항 정의
   - 기술 기획
 
 links:

@@ -9,18 +9,14 @@ bio: |
 avatar: /images/members/heo-junyoung.jpg
 
 skills:
-  # 디자인
   - Figma
   - UI/UX 디자인
   - 브랜딩
   - 그래픽 디자인
-  # 기획
   - 서비스 기획
   - 사용자 리서치
 
-links:
-  # github: 
-  # email: 
+links: {}
 
 projects:
   - jnf-portfolio

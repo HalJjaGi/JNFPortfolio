@@ -9,13 +9,14 @@ bio: |
 avatar: /images/members/song-minjin.jpg
 
 skills:
-  # 디자인
   - Figma
   - UI/UX 디자인
   - 프로토타이핑
-  # 기획
   - 서비스 기획
   - 사용자 여정 설계
+  - 사용자 리서치
+
+links: {}
 
 projects:
   - jnf-portfolio
