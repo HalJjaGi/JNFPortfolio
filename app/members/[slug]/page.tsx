@@ -4,6 +4,7 @@ import { getMemberBySlug, getMemberSlugs } from '@/lib/members';
 import { getProjectsByMember } from '@/lib/projects';
 import { ProjectCard } from '@/components/ProjectCard';
 import { TechBadge } from '@/components/TechBadge';
+import { ExperienceTimeline } from '@/components/ExperienceTimeline';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -116,6 +117,15 @@ export default async function MemberPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Experience */}
+      {member.experience && member.experience.length > 0 && (
+        <section className="px-6 py-16 bg-neutral-50">
+          <div className="max-w-4xl mx-auto">
+            <ExperienceTimeline experience={member.experience} />
+          </div>
+        </section>
+      )}
 
       {/* Projects */}
       <section className="px-6 py-16">

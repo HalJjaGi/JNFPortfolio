@@ -24,3 +24,14 @@ links:
 projects:
   - project-slug-1
   - project-slug-2
+
+# (선택) 경력 타임라인
+experience:
+  - period: 2024.01 - 현재
+    title: 시니어 개발자
+    company: (주)회사명
+    description: 웹 서비스 개발 및 운영
+  - period: 2022.03 - 2023.12
+    title: 주니어 개발자
+    company: 스타트업
+    description: 프론트엔드 개발

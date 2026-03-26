@@ -4,6 +4,13 @@ import yaml from 'js-yaml';
 
 const contentDir = path.join(process.cwd(), 'content');
 
+export interface Experience {
+  period: string;
+  title: string;
+  company: string;
+  description?: string;
+}
+
 export interface Member {
   slug: string;
   name: string;
@@ -18,6 +25,7 @@ export interface Member {
     linkedin?: string;
   };
   projects: string[];
+  experience?: Experience[];
 }
 
 export function getMemberSlugs(): string[] {

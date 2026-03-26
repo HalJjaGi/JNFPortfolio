@@ -21,3 +21,13 @@ links:
 
 projects:
   - sample-project
+
+experience:
+  - period: 2024.01 - 현재
+    title: 시니어 풀스택 개발자
+    company: 테크 컴퍼니
+    description: Next.js 기반 웹 서비스 개발 및 운영
+  - period: 2022.03 - 2023.12
+    title: 프론트엔드 개발자
+    company: 스타트업
+    description: React, TypeScript를 활용한 프론트엔드 개발
