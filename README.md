@@ -27,6 +27,44 @@ npm run build  # out/ 폴더에 정적 파일 생성
 
 ## 팀원 추가하기
 
+### 역할 유형
+
+**개발자 (developer)**
+```yaml
+role: 프론트엔드 개발자
+skills:
+  - React
+  - Next.js
+  - TypeScript
+```
+
+**기획자 (planner)**
+```yaml
+role: 서비스 기획자
+skills:
+  - 서비스 기획
+  - 사용자 리서치
+  - 요구사항 정의
+```
+
+**디자이너 (designer)**
+```yaml
+role: 프로덕트 디자이너
+skills:
+  - Figma
+  - UI/UX 디자인
+  - 디자인 시스템
+```
+
+**마케터 (marketing)**
+```yaml
+role: 콘텐츠 마케터
+skills:
+  - 콘텐츠 기획
+  - SNS 운영
+  - 퍼포먼스 마케팅
+```
+
 ### 1. YAML 파일 생성
 
 `content/members/` 폴더에 `{slug}.yaml` 파일 생성
@@ -36,17 +74,16 @@ npm run build  # out/ 폴더에 정적 파일 생성
 
 slug: my-name  # URL에 사용될 고유 ID
 name: 홍길동
-role: 풀스택 개발자
+role: 서비스 기획자  # 개발자/기획자/디자이너/마케터 등
 bio: |
   안녕하세요! 홍길동입니다.
   여러 줄로 작성할 수 있습니다.
 avatar: /images/members/my-name.jpg
 
 skills:
-  - React
-  - Next.js
-  - TypeScript
-  - Node.js
+  - 서비스 기획
+  - 사용자 리서치
+  - 요구사항 정의
 
 links:
   github: https://github.com/username

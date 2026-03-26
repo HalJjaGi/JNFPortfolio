@@ -1,24 +1,45 @@
 # 팀원 데이터 템플릿
 # 이 파일을 복사해서 새 팀원을 추가하세요
 
+# === 필수 정보 ===
 slug: example-member
 name: 이름
-role: 역할 (예: 풀스택 개발자)
+role: 역할 (예: 기획자, 디자이너, 개발자, 마케터)
 bio: |
   간단한 소개를 여기에 작성하세요.
   여러 줄로 작성할 수 있습니다.
 avatar: /images/members/example.jpg
 
-skills:
-  - React
-  - Next.js
-  - TypeScript
+# === 역할별 상세 정보 ===
+# 기획자/PM
+planning:
+  domains: [서비스 기획, UX 기획, 데이터 분석]
+  tools: [Figma, Notion, Jira, Amplitude]
 
+# 디자이너
+design:
+  domains: [UI/UX, 브랜딩, 그래픽]
+  tools: [Figma, Adobe XD, Photoshop, Illustrator]
+
+# 개발자
+development:
+  skills: [React, Next.js, TypeScript]
+  backend: [Node.js, Python]
+  devops: [Docker, AWS]
+
+# 마케터
+marketing:
+  domains: [콘텐츠 마케팅, 퍼포먼스 마케팅, SNS 운영]
+  tools: [Google Analytics, Meta Business Suite, Notion]
+
+# === 공통 정보 ===
 links:
   github: https://github.com/username
   email: email@example.com
-  # twitter: https://twitter.com/username
+  # portfolio: https://portfolio.com
   # linkedin: https://linkedin.com/in/username
+  # instagram: https://instagram.com/username
+  # behance: https://behance.net/username
 
 # 이 팀원이 참여한 프로젝트 슬러그 목록
 projects:
@@ -28,10 +49,10 @@ projects:
 # (선택) 경력 타임라인
 experience:
   - period: 2024.01 - 현재
-    title: 시니어 개발자
+    title: 시니어 기획자
     company: (주)회사명
-    description: 웹 서비스 개발 및 운영
+    description: 서비스 기획 및 UX 개선
   - period: 2022.03 - 2023.12
-    title: 주니어 개발자
+    title: 주니어 기획자
     company: 스타트업
-    description: 프론트엔드 개발
+    description: 신규 서비스 기획
