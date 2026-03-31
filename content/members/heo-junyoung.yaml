@@ -18,7 +18,8 @@ skills:
 
 links: {}
 
-projects: []
+projects:
+  - portfolio-builder
 
 experience:
   - period: 2024.01 - 현재
